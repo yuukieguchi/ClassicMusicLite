@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ClassicMusicLite</string>
+    <string name="artist_list">作曲家一覧</string>
+    <string name="dialog01">アプリを終了しますか？</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+    <string name="exit">アプリ終了</string>
+    <string name="home">ホーム</string>
+    <string name="setup">設定</string>
+    <string name="info">情報</string>
+    <string name="edit">編集</string>
+    <string name="save">保存</string>
+    <string name="refresh">更新</string>
+    <string name="refresh_ok">更新しました</string>
+    <string name="refresh_ng">更新失敗</string>
+    <string name="save_ok">保存しました</string>
+    <string name="save_ng">保存失敗</string>
+    <string name="cancel">キャンセル</string>
+    <string name="cancel_ok">キャンセルしました</string>
+    <string name="back">戻る</string>
+    <string name="forward">進む</string>
+    <string name="read_ok">読込完了</string>
+    <string name="read_ng">読込失敗</string>
+    <string name="play">再生</string>
+    <string name="playing">再生中</string>
+    <string name="stop">停止</string>
+    <string name="suspend">一時停止</string>
+
+</resources>

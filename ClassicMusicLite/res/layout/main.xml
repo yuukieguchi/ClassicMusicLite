@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:background="@color/black">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/artist_list" android:layout_centerHorizontal="true" android:textSize="30dp"/>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:layout_below="@id/title">
+    </ListView>
+
+    <jp.co.nobot.libAdMaker.libAdMaker
+        android:id="@+id/admakerview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" android:layout_alignParentBottom="true">
+    </jp.co.nobot.libAdMaker.libAdMaker>
+
+</RelativeLayout>
